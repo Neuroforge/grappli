@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Backend server for Jiujitsu knowledge app",
   "main": "index.js",
+  "license": "AGPL-3.0",
+  "author": "Neuroforge",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"

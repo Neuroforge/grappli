@@ -12,8 +12,8 @@
     "start": "cd server && npm start"
   },
   "keywords": ["jiujitsu", "bjj", "martial-arts", "knowledge-graph", "community"],
-  "author": "Your Name",
-  "license": "MIT",
+  "author": "Neuroforge",
+  "license": "AGPL-3.0",
   "devDependencies": {
     "concurrently": "^8.2.2"
   }

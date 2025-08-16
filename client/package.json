@@ -2,6 +2,8 @@
   "name": "jiujitsu-client",
   "version": "1.0.0",
   "private": true,
+  "license": "AGPL-3.0",
+  "author": "Neuroforge",
   "dependencies": {
     "@babylonjs/core": "^6.44.0",
     "@babylonjs/loaders": "^6.44.0",
