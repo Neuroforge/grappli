@@ -1,0 +1,67 @@
+{
+  "name": "jiujitsu-client",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@babylonjs/core": "^6.44.0",
+    "@babylonjs/loaders": "^6.44.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.2",
+    "clsx": "^2.0.0",
+    "framer-motion": "^10.16.16",
+    "lucide-react": "^0.294.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-force-graph-2d": "^1.25.0",
+    "react-force-graph-3d": "^1.25.0",
+    "react-hook-form": "^7.48.2",
+    "react-hot-toast": "^2.4.1",
+    "react-query": "^3.39.3",
+    "react-router-dom": "^6.8.1",
+    "react-scripts": "5.0.1",
+    "tailwind-merge": "^2.0.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint src --ext .js,.jsx",
+    "lint:fix": "eslint src --ext .js,.jsx --fix",
+    "format": "prettier --write src/**/*.{js,css}",
+    "format:check": "prettier --check src/**/*.{js,css}"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.3",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "postcss": "^8.4.32",
+    "prettier": "^3.6.2",
+    "tailwindcss": "^3.3.6"
+  },
+  "proxy": "http://localhost:5000"
+}
